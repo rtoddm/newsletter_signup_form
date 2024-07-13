@@ -12,7 +12,15 @@
       href="./assets/images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
 
     <title>Newsletter sign-up form with success message</title>
   </head>
@@ -23,8 +31,13 @@
           <section class="image-section">
             <img
               src="/assets/images/illustration-sign-up-mobile.svg"
-              alt=""
-              id="first-image"
+              alt="mobile image"
+              id="mobile-image"
+            />
+            <img
+              src="assets/images/illustration-sign-up-desktop.svg"
+              alt="desktop image"
+              id="desktop-image"
             />
           </section>
         </div>
@@ -60,16 +73,25 @@
               </div>
             </div>
           </section>
-          <section class="bottom-section">
+          <form class="bottom-section" id="form" novalidate>
             <h6>Email address</h6>
-            <input type="text" id="email" placeholder="email@company.com " />
-            <button>Subscribe to monthly newsletter</button>
-          </section>
+            <h6 id="input-error-text" class="hidden">Valid Email Required</h6>
+            <input
+              type="textarea"
+              id="email"
+              name="email"
+              placeholder="ash@loremcompany.com "
+            />
+            <button id="subscribe-button">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
         </div>
       </div>
       <!-- Sign-up form end -->
-
-      <!-- Success message start -->
+    </div>
+    <!-- Success message start -->
+    <div class="content-container-success">
       <div class="message-page-container">
         <section class="success-message">
           <img
@@ -78,14 +100,14 @@
           />
           <h1>Thanks for subscribing!</h1>
           <p>
-            A confirmation email has been sent to ash@loremcompany.com. Please
-            open it and click the button inside to confirm your subscription.
+            A confirmation email has been sent to
+            <span>ash@loremcompany.com</span>. Please open it and click the
+            button inside to confirm your subscription.
           </p>
-          <button>Dismiss message</button>
+          <button class="dismiss">Dismiss message</button>
         </section>
       </div>
     </div>
-
     <!-- Success message end -->
   </body>
 </html>
