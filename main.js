@@ -51,11 +51,11 @@ form.addEventListener("submit", function (e) {
   const dataVar = data.email;
 
   // ********** Data Validation ********** //
-
-  if (data.email == "" || data.email.length < 10) {
-    console.log(typeof data.email);
-    console.log(data.email == String);
-    console.log(data.email instanceof String);
+  if (
+    data.email == "" ||
+    data.email.length < 10 ||
+    typeof data.email != "string"
+  ) {
     input.classList.add("input-error-color");
     inputErrorText.classList.remove("hidden");
     inputErrorText.classList.add("input-error-text");

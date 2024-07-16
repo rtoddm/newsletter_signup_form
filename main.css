@@ -144,13 +144,19 @@ body {
 }
 
 .bottom-section {
-  /* outline: 3px black solid; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+  position: relative;
   height: 10.12rem;
   margin-top: 2rem;
+}
+
+#email-title {
+  position: absolute;
+  left: 10px;
+  bottom: 145px;
 }
 
 .bottom-section input {
@@ -161,6 +167,7 @@ body {
   line-height: 150%;
   opacity: 0.5;
   text-align: center;
+  margin-top: 12px;
 }
 
 .input-error-color {
@@ -168,10 +175,10 @@ body {
 }
 
 .input-error-text {
-  position: absolute;
-  bottom: 440px;
-  left: 900px;
   color: #ff6155;
+  position: absolute;
+  left: 215px;
+  bottom: 145px;
 }
 
 /* #form {
@@ -394,6 +401,13 @@ button:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+  }
+
+  .input-error-text {
+    color: #ff6155;
+    position: absolute;
+    left: 260px;
+    bottom: 145px;
   }
 
   button {
