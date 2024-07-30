@@ -75,14 +75,16 @@
           </section>
           <form class="bottom-section" id="form" novalidate>
             <h6 id="email-title">Email address</h6>
-            <h6 id="input-error-text" class="hidden">Valid Email Required</h6>
+            <h6 id="input-error-text" class="hidden"></h6>
             <input
-              type="textarea"
+              type="email"
               id="email"
               name="email"
               placeholder="ash@loremcompany.com "
+              required
+              minlength="8"
             />
-            <button id="subscribe-button">
+            <button id="subscribe-button" type="submit">
               Subscribe to monthly newsletter
             </button>
           </form>
@@ -101,8 +103,8 @@
           <h1>Thanks for subscribing!</h1>
           <p>
             A confirmation email has been sent to
-            <span>ash@loremcompany.com</span>. Please open it and click the
-            button inside to confirm your subscription.
+            <span id="success-message-email">ash@loremcompany.com</span>. Please
+            open it and click the button inside to confirm your subscription.
           </p>
           <button class="dismiss">Dismiss message</button>
         </section>

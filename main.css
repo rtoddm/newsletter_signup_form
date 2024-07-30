@@ -78,14 +78,12 @@ body {
 }
 
 .site-info {
-  /* outline: 3px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .main-section {
-  /* outline: green solid 2px; */
   flex-direction: column;
   width: 98%;
   height: 17.25rem;
@@ -170,20 +168,13 @@ body {
   margin-top: 12px;
 }
 
-.input-error-color {
-  background-color: #ff6155;
-}
-
-.input-error-text {
+#input-error-text {
   color: #ff6155;
   position: absolute;
-  left: 215px;
+  left: 155px;
   bottom: 145px;
+  width: 200px;
 }
-
-/* #form {
-  outline: red 2px solid;
-} */
 
 button {
   width: 20.43rem;
@@ -403,10 +394,10 @@ button:hover {
     line-height: 150%;
   }
 
-  .input-error-text {
+  #input-error-text {
     color: #ff6155;
     position: absolute;
-    left: 260px;
+    left: 230px;
     bottom: 145px;
   }
 
