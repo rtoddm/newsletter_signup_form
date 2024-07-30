@@ -107,36 +107,30 @@ body {
 
 /*First Bullet Point ---------------- */
 #bullet-point-one {
-  /* outline: black solid 2px; */
   margin-top: 1.5rem;
 }
 
 #first-bullet-point {
-  /* outline: red solid 2px; */
   float: left;
   margin-right: 0.62rem;
 }
 
 /*Second Bullet Point ---------------- */
 #bullet-point-two {
-  /* outline: black solid 2px; */
   margin-top: 0.62rem;
 }
 
 #second-bullet-point {
-  /* outline: red solid 2px; */
   float: left;
   margin-right: 0.62rem;
 }
 
 /*Third Bullet Point ---------------- */
 #bullet-point-three {
-  /* outline: black solid 2px; */
   margin-top: 0.62rem;
 }
 
 #third-bullet-point {
-  /* outline: red solid 2px; */
   float: left;
   margin-right: 0.62rem;
 }
@@ -153,8 +147,8 @@ body {
 
 #email-title {
   position: absolute;
-  left: 10px;
-  bottom: 145px;
+  left: 0.625rem;
+  bottom: 9.06rem;
 }
 
 .bottom-section input {
@@ -165,7 +159,7 @@ body {
   line-height: 150%;
   opacity: 0.5;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 #input-error-text {
@@ -191,7 +185,6 @@ button {
 /* (Mobile) Success Message */
 
 .content-container-success {
-  /* outline: hsl(4, 100%, 67%) solid 3px; */
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -254,11 +247,11 @@ button {
 
 .success-message button {
   position: absolute;
-  top: 680px;
+  top: 42.5rem;
   width: 20.43rem;
   height: 3.5rem;
   font-weight: var(--font-normal);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   text-align: center;
   color: #ffffff;
@@ -327,7 +320,7 @@ button:hover {
     align-items: flex-start;
     height: 27.87rem;
     width: 26.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 
   .main-section h1 {
@@ -370,7 +363,7 @@ button:hover {
   }
 
   #email {
-    margin-top: 8px;
+    margin-top: 0.5rem;
   }
 
   .bottom-section input {
@@ -390,15 +383,15 @@ button:hover {
     font-family: "Roboto Flex";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
   }
 
   #input-error-text {
     color: #ff6155;
     position: absolute;
-    left: 230px;
-    bottom: 145px;
+    left: 14.37rem;
+    bottom: 9.06rem;
   }
 
   button {
@@ -423,7 +416,6 @@ button:hover {
   }
 
   .success-message {
-    /* outline: red solid 2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -439,9 +431,7 @@ button:hover {
   .success-message h1 {
     width: 23.5rem;
     height: 7rem;
-    font-size: 56px;
     font-size: 3.5rem;
-    font-size: 56px;
     line-height: 100%;
     color: #242742;
   }
@@ -452,7 +442,7 @@ button:hover {
 
   .success-message button {
     position: absolute;
-    top: 380px;
+    top: 23.75rem;
     width: 23.5rem;
   }
 }
