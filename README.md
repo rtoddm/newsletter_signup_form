@@ -57,5 +57,5 @@ As I continue I plan on focusing on developing my CSS and JS even further.
 
 ## Author
 
-- Website - [GitHub Repot Gallery](https://rtoddm.github.io/git-repo-gallery/)
+- Website - [GitHub Repo Gallery](https://rtoddm.github.io/git-repo-gallery/)
 - Frontend Mentor - [@rtoddm](https://www.frontendmentor.io/profile/rtoddm)
