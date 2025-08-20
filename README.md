@@ -1,7 +1,4 @@
 ## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
